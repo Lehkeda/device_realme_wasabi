@@ -140,3 +140,9 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Inherit GAPPs
 # $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+
+# Binder
+PRODUCT_PACKAGES += \
+    libhwbinder \
+    libhwbinder.vendor \
+    libhidltransport
