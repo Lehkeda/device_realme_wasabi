@@ -24,7 +24,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.opengles.version=196610 \
     ro.zygote.preload.enable=0 \
     qemu.hw.mainkeys=0 \
-    sys.ipo.disable=1
+    sys.ipo.disable=1 \
+	ro.hardware.egl=mali
 
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.latch_unsignaled=1 \
