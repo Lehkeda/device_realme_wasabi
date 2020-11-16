@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_wasabi.mk
+    $(LOCAL_DIR)/potato_wasabi.mk
 	
 COMMON_LUNCH_CHOICES := \
-	rr_wasabi-user \
-    rr_wasabi-userdebug \
-    rr_wasabi-eng
+	potato_wasabi-user \
+    potato_wasabi-userdebug \
+    potato_wasabi-eng
