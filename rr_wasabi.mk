@@ -28,6 +28,9 @@ $(call inherit-product, vendor/rr/config/data_only.mk)
 # RR Wallpapers
 BUILD_RR_WALLPAPERS := true
 
+# RR build type
+RR_BUILDTYPE := Official
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rr_wasabi
 PRODUCT_DEVICE := wasabi
