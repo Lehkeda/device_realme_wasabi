@@ -21,7 +21,7 @@ cc_library_static {
         "init_wasabi.cpp"
     ],
     include_dirs: [
-        "system/core/base/include",
         "system/core/init"
-    ]
+    ],
+	shared_libs: ["libbase"],
 }
